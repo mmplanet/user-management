@@ -1,0 +1,45 @@
+.profile-item {
+    cursor: pointer;
+    border-radius: 0;
+    border-bottom: 1px solid #eee;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.profile-item:last-child {
+    border-bottom: 0;
+}
+
+.profile-item.selected {
+    background-color: #f0f0f0;
+}
+
+.profile-item.selected{
+    text-decoration: underline;
+}
+
+.main-content {
+    border-left:1px solid #eee;
+}
+
+.content-wrapper {
+    border-radius: 0 20px 20px 0;
+}
+
+.users-table .self {
+    background-color: #ffdfdf;
+}
+
+.add-user-btn {
+    float:right;
+    margin-top: 15px;
+}
+
+.add-group-btn {
+    float:right;
+}
+
+.remove-from-group {
+    background-color: #dc3545!important;
+}

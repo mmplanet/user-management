@@ -1,0 +1,100 @@
+/*noinspection CssUnknownTarget*/
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap");
+/*noinspection CssUnknownTarget*/
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap");
+/*noinspection CssUnknownTarget*/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap");
+
+:root {
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 500;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    /*--bs-body-bg: rgb(128, 30, 90);*/
+    --bs-body-bg: #f5f5f5;;
+}
+
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.white {
+    color: #fff;
+}
+
+.bg-magenta {
+    background-color: rgb(128, 30, 90);
+}
+
+.magenta {
+    color: rgb(128, 30, 90)
+}
+
+.bg-fuchsia {
+    background-color: rgb(221, 54, 235);
+}
+
+.fuchsia {
+    color: rgb(221, 54, 235);
+}
+
+#mainNav {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.body-main {
+
+}
+
+.vh-25 {
+    height: 25vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.mvh-25 {
+    min-height: 25vh;
+}
+
+.mvh-50 {
+    min-height: 50vh;
+}
+
+.mvh-75 {
+    min-height: 75vh;
+}
+
+.nav-login {
+}
+
+.nav-login:hover {
+    border: 1px solid rgb(128, 30, 90);
+}
+
+.nav-signup {
+
+}
+
+.nav-signup:hover {
+    border: 1px solid rgb(221, 54, 235);
+}

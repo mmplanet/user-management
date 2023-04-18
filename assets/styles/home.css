@@ -1,0 +1,35 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 75px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.loginBtn {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border: 1px solid #fff;
+}
+
+.spacer {
+    background-color: rgb(128, 30, 90);
+}
+
+.main {
+    border-radius: 20px;
+    width: auto;
+    max-width: initial;
+    overflow: hidden;
+    color: #4f4f4f;
+}
