@@ -2,6 +2,12 @@
 
 App based on React with a Symfony 6 backend.
 
+### Install dependencies:
+`npm i`
+
+`composer install`
+
+
 ### Apply migrations:
 
 `bin/console doctrine:migrations:migrate`
