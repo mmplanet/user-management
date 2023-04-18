@@ -22,3 +22,8 @@ App based on React with a Symfony 6 backend.
 
 ### After registering, you can assign a user Admin permissions via:
 ` bin/console user:add-role --email=test@test.com --role=ROLE_ADMIN`
+
+
+## Domain model:
+
+![image](https://user-images.githubusercontent.com/11751407/232848716-df9245cb-4b86-4fb1-aed7-be65ef155945.png)
